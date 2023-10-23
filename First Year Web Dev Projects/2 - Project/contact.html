@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My Portofolio</title>
+    <meta name="Project Thiago K00287912" content="This is my personal Portofolio ">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="index.html">My Portofolio</a></div>
+            <ul class="links">
+                <li><a href="education.html">Education</a></li>
+                <li><a href="hobbies.html">Hobbies</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="achievement.html">Achievements</a></li>
+            </ul>
+            <a href="contact.html" class="action_btn">Hire Me!</a>
+            <div class="toggle_btn"><i class="fa-solid fa-bars"></i></div>
+        </div>
+        <div class="dropdown_menu">
+            <ul class="links">
+                <li><a href="education.html">Education</a></li>
+                <li><a href="hobbies.html">Hobbies</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="achievement.html">Achievements</a></li>
+                <li><a href="contact.html" class="action_btn">Hire Me!</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="container_Contact">
+
+
+        <h1>Contact Me</h1>
+        <form method="POST" action="http://litstudentprojects.net/rdwd-contact-response.php" id="myForm" novalidate>
+            <div class="row">
+                <div class="col-25">
+                    <label for="name">Name*</label><br>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="name" name="name" required><br><br>
+                    <span id="error1" class="errors"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="company_name">Company Name</label><br>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="company_name" name="company_name"><br><br>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="website">Company Website</label><br>
+                </div>
+                <div class="col-75">
+                    <input type="url" id="website" name="website"><br><br>
+                    <span id="error6" class="errors"></span>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="email1">Email*</label><br>
+                </div>
+                <div class="col-75">
+                    <input type="email" id="email1" name="email1" required><br><br>
+                    <span id="error2" class="errors"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="email2">Retype Email*</label><br>
+                </div>
+                <div class="col-75">
+                    <input type="email" id="email2" name="email2" required><br><br>
+                    <span id="error3" class="errors"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="query">Query/Comment*</label><br>
+                </div>
+                <div class="col-75">
+                    <textarea id="query" name="query" rows="5" cols="30" required></textarea><br><br>
+                    <span id="error4" class="errors"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label>Enter Captcha</label>
+                    <div id="captchaBackground">
+
+                        <canvas id="captcha">captcha text</canvas>
+                    </div>
+                </div>
+                <div class="col-75">
+                    <br>
+
+                    <input id="textBox" type="text" name="text">
+                    <br><br>
+                    <button id="refreshButton" type="button">Refresh Captcha</button>
+                    <span id="error5" class="errors"></span>
+                </div>
+            </div>
+            <br>
+            <button id="submitButton" type="submit">Submit</button>
+
+            <button id="reset" type="reset">Reset Form</button>
+
+            <span id="output"></span>
+
+        </form>
+        <script>
+
+        </script>
+
+    </div>
+
+
+    <footer id="contact_page">
+
+        <h3>Follow me:</h3>
+        <div class="socialMediaIcon">
+            <img src="images/facebook.png" alt="Facebook logo">
+        </div>
+        <div class="socialMediaIcon">
+            <img src="images/instagram.png" alt="Instagram logo">
+        </div>
+        <div class="socialMediaIcon">
+            <img src="images/linkedin.png" alt="linkedin logo">
+        </div>
+        <div class="socialMediaIcon">
+            <img src="images/skype.png" alt="Skype logo">
+        </div>
+
+
+    </footer>
+    <div class="cookie-container">
+        <p class="cookie">
+            We use cookies to ensure that we give you the best experience on our website. By continuing to use this
+            site,
+            you
+            consent to our use of cookies.
+        </p>
+
+        <button class="cookie-btn">
+            Okay
+        </button>
+    </div>
+    <script src="js/contact.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My Portofolio</title>
+    <meta name="Project Thiago K00287912" content="This is my personal Portofolio ">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="index.html">My Portofolio</a></div>
+            <ul class="links">
+                <li><a href="education.html">Education</a></li>
+                <li><a href="hobbies.html">Hobbies</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="achievement.html">Achievements</a></li>
+            </ul>
+            <a href="contact.html" class="action_btn">Hire Me!</a>
+            <div class="toggle_btn"><i class="fa-solid fa-bars"></i></div>
+        </div>
+        <div class="dropdown_menu">
+            <ul class="links">
+                <li><a href="education.html">Education</a></li>
+                <li><a href="hobbies.html">Hobbies</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="achievement.html">Achievements</a></li>
+                <li><a href="contact.html" class="action_btn">Hire Me!</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container_Hobbies">
+        <h1 class="h1_centered">My Hobbies</h1>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="images/img1.jpg" alt="Assorted books on shelf of a library"> <!-- Copywrite free Image, source:
+                https://www.pexels.com/photo/assorted-books-on-shelf-1290141/ -->
+                <p class="my_hobbies">I love reading because it lets me escape into new worlds, learn new things, relax,
+                    and stimulate my
+                    imagination. It's a
+                    rewarding and enriching activity that I enjoy anytime, anywhere.</p>
+            </div>
+            <div class="mySlides fade">
+                <img src="images/img2.jpg" alt="Black dslr camera mounted on black tripod"> <!-- Copywrite free Image,
+                source: https://www.pexels.com/photo/black-dslr-camera-mounted-on-black-tripod-212372/ -->
+                <p class="my_hobbies">I love capturing the beauty of the world through my camera lens, whether it's
+                    landscapes, people, or
+                    animals, and
+                    constantly seek new and unique perspectives to showcase through my photography.</p>
+            </div>
+            <div class="mySlides fade">
+                <img src="images/img3.jpg" alt="8 electric guitars hanged on brown steel bar"> <!-- Copywrite free Image,
+                source: https://www.pexels.com/photo/8-electric-guitars-hanged-on-brown-steel-bar-65718/ -->
+                <p class="my_hobbies">Playing guitar lets me express my creativity and emotions through music. I love
+                    learning new
+                    techniques and styles to
+                    improve my skills and explore different sounds and genres.</p>
+            </div>
+            <div class="mySlides fade">
+                <img src="images/img4.jpg" alt="Paintbrush near paint pallet"> <!-- Copywrite free Image, source:
+                https://www.pexels.com/photo/selective-focus-photography-of-paintbrush-near-paint-pallet-1047540/ -->
+                <p class="my_hobbies">I enjoy expressing my creativity through painting, using various mediums and
+                    techniques to create
+                    beautiful works of art
+                    that reflect my emotions and experiences.</p>
+            </div>
+            <div class="arrows">
+                <a class="prev" onclick="plusSlides(-1)">&#8249;</a>
+                <a class="next" onclick="plusSlides(1)">&#8250;</a>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="footerDiv1">
+            <h3>Follow me:</h3>
+            <div class="socialMediaIcon">
+                <img src="images/facebook.png" alt="Facebook logo">
+            </div>
+            <div class="socialMediaIcon">
+                <img src="images/instagram.png" alt="Instagram logo">
+            </div>
+            <div class="socialMediaIcon">
+                <img src="images/linkedin.png" alt="linkedin logo">
+            </div>
+            <div class="socialMediaIcon">
+                <img src="images/skype.png" alt="Skype logo">
+            </div>
+        </div>
+        <div class="footerDiv2">
+            <h3>Want to contact me? Enter your Email:</h3>
+            <form action="contact.html">
+                <div class="subscription_label">
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                </div>
+                <div class="button_style1">
+                    <button type="submit" value="Subscribe">Let's Talk</button>
+
+                </div>
+            </form>
+        </div>
+
+    </footer>
+    <div class="cookie-container">
+        <p class="cookie">
+            We use cookies to ensure that we give you the best experience on our website. By continuing to use this
+            site,
+            you
+            consent to our use of cookies.
+        </p>
+
+        <button class="cookie-btn">
+            Okay
+        </button>
+    </div>
+    <script src="js/hobbies.js"></script>
+</body>
+
+</html>

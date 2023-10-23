@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Contact Us</title>
+  <meta name="Project Thiago K00287912" content="This is my project for Responsive Design and Web Dev ">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="script/main.js"></script>
+</head>
+
+<body>
+  <div class="grid-container">
+    <header>
+      <img src="images/sp1.jpg" class="hero-image" alt="draw of remarkable points of São Paulo">
+      <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a
+          href="https://www.google.com/search?q=sao+paulo&biw=1536&bih=750&tbm=nws&sxsrf=AJOqlzWe2lanBfhUcJqYgIfG0H-uUiNIGQ%3A1676991702442&ei=1tz0Y4XYGtWqgAbt3J3YCQ&ved=0ahUKEwiFm9z18Kb9AhVVFcAKHW1uB5sQ4dUDCA0&uact=5&oq=sao+paulo&gs_lcp=Cgxnd3Mtd2l6LW5ld3MQAzIFCAAQkQIyBwgAELEDEEMyBAgAEEMyCwgAEIAEELEDEIMBMgsIABCABBCxAxCDATIECAAQQzIFCAAQkQIyCwgAEIAEELEDEIMBMgUIABCABDIFCAAQgARQAFgAYI4DaABwAHgAgAF9iAF9kgEDMC4xmAEAoAEBwAEB&sclient=gws-wiz-news">News</a>
+        <a href="contactUs.html">Contact Us</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">Menu
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </header>
+
+    <div class="contactForm">
+      <fieldset>
+        <form action="http://litstudentprojects.net/rdwd-newsletter-response.php" method="post">
+          <div class="row">
+            <div class="col1">
+              <label for="fname">First Name</label>
+            </div>
+            <div class="col2">
+              <input type="text" id="fname" name=" first_name" placeholder="Your name">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col1">
+              <label for="lname">Last Name</label>
+            </div>
+            <div class="col2">
+              <input type="text" id="lname" name="last_name" placeholder="Your last name">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col1">
+              <label for="email">Email</label>
+            </div>
+            <div class="col2">
+              <input type="email" id="email" name="email1" placeholder="Your email">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col1">
+              <label for="email2">Retype Email</label>
+            </div>
+            <div class="col2">
+              <input type="email" id="email2" name="email2" placeholder="Retype your email">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col1">
+              <label for="phone">Phone</label>
+            </div>
+            <div class="col2">
+              <input type="tel" id="phone" name="phone" placeholder="Your phone number">
+            </div>
+          </div>
+
+          <br><br>
+
+          <fieldset>
+            <legend>Your Interests? (Tick all that apply)</legend>
+            <div class="checkbox-Container">
+              <div class="col3">
+                <label class="container">Things to Do
+                  <input type="checkbox" name="interest[]" value="todo">
+                </label>
+              </div>
+
+              <div class="col3">
+                <label class="container">Hiking and Walking
+                  <input type="checkbox" name="interest[]" value="hiking">
+                </label>
+              </div>
+
+              <div class="col3">
+                <label class="container">Events
+                  <input type="checkbox" name="interest[]" value="events">
+                </label>
+              </div>
+
+              <div class="col3">
+                <label class="container">Places to Stay
+                  <input type="checkbox" name="interest[]" value="accommodation">
+                </label>
+              </div>
+
+              <div class="col3">
+                <label class="container">Places to Eat
+                  <input type="checkbox" name="interest[]" value="dining">
+                </label>
+              </div>
+            </div>
+          </fieldset>
+
+          <br>
+
+          <div class="row">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+          </div>
+        </form>
+      </fieldset>
+    </div>
+
+    <footer>
+      <div class="footerDiv1">
+        <h3>About this Site:</h3>
+        <p>This website was created by Thiago Gomes Parzanini, born and raised in São Paulo</p>
+      </div>
+
+      <div class="footerDiv2">
+        <img src="images/ilovesp.png" alt="Icon written I love SP with a heart">
+      </div>
+
+      <div class="footerDiv3">
+        <h3>Useful links to learn more about São Paulo</h3>
+
+        <ul>
+          <li><a id="hyperlink1" href="https://visitesaopaulo.com/#googtrans(en)">Visit São Paulo Website</a></li>
+          <li><a id="hyperlink2"
+              href="https://www.tripadvisor.com/Tourism-g303631-Sao_Paulo_State_of_Sao_Paulo-Vacations.html">Trip
+              Advisor</a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
